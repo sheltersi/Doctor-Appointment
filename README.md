@@ -2,6 +2,7 @@
 
 a laravel web application that allows a user(patient) to register an account and book for an appointment to see a doctor.
 the admin will approave or cancel the appointment request and will also be able to send an email to the users(patients).
-<<<<<<< HEAD
-![Home_Page!](../assets/iamages/int8.png)
 
+Home Page
+
+![Home_Page](https://github.com/sheltersi/Doctor-Appointment/blob/main/assets/images/int8.PNG?raw=true)
