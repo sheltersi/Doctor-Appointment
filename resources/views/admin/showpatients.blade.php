@@ -44,7 +44,7 @@
                 <th style="padding:10px">Phone</th>
                 <th style="padding:10px">speciality</th>
                 <th style="padding:10px">Room No</th>
-                <th style="padding:10px">Image</th>
+                {{-- <th style="padding:10px">Image</th> --}}
 
                 <th style="padding:10px">Delete</th>
 
