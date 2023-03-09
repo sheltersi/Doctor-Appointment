@@ -88,7 +88,7 @@ label{
             {{-- <textarea name="text" style="color:black" name="message_body" required="">write the message...</textarea> --}}
         </div>
 
-        <div style="padding: 15px;">
+        <!-- <div style="padding: 15px;">
 
             <label for="doctor_name">Action Text</label>
             <input type="text" style="color:black" name="actiontext" required="">
@@ -105,7 +105,7 @@ label{
             <label for="doctor_name">End Part</label>
             <input type="text" style="color:black" name="endpart" required="">
         </div>
-
+ -->
 
 
         <div style="padding: 15px;">

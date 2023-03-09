@@ -47,10 +47,15 @@ private $details;
     public function toMail($notifiable)
     {
         return (new MailMessage)
+         // ->subject("Richfield Clinic Notification {$this->chirp->user->name}")
+
         ->greeting($this->details['greeting'])
                     ->line($this->details['message_body'])
-                    ->action($this->details['actiontext'],$this->details['actionurl'])
-                    ->line($this->details['endpart']);
+
+                    // ->action($this->details['actiontext'],$this->details['actionurl'])
+                      ->action('Cancel', url('/'))
+  ->line('Thank you for using our Richfield clinic application!');
+                    // ->line($this->details['endpart']);
     }
 
     /**

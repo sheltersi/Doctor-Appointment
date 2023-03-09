@@ -40,29 +40,30 @@
 
         <table>
 
-
+<!--
 {{-- <tr  align="center" style="background-color:skyblue;" > --}}
     <tr  align="center" style="background-color:skyblue;" >
     {{-- <td><img height="100" width="100" src ="doctorimage/{{$data->photo}}"></td> --}}
     {{-- <td><img height="100" width="100">{{$data->photo}}</td> --}}
     </tr>
-
-    <tr  align="center" style="background-color:skyblue;" >
-    <td>{{$data->name}}</td>
+ -->
+     <tr  align="center" style="background-color:skyblue;" >
+    <td>{{$profile->name}}</td>
 </tr>
-
+<hr>
     <tr  align="center" style="background-color:skyblue;" >
-                <td>{{$data->phone}}</td>
+                <td>{{$profile->phone}}</td>
             </tr>
-
-                <tr  align="center" style="background-color:skyblue;" >
-                <td>{{$data->address}}</td>
-            </tr>
-
-                <tr  align="center" style="background-color:skyblue;" >
-                <td>{{$data->email}}</td>
+<hr>
+            <tr  align="center" style="background-color:skyblue;" >
+                <td>{{$profile->email}}</td>
                 </tr>
+<hr>
+                <tr  align="center" style="background-color:skyblue;" >
+                <td>{{$profile->address}}</td>
+            </tr>
 
+               
 
             {{-- <td><a onclick="return confirm('are you sure to delete this')" class="btn btn-danger" href="{{url('deletedoctor',$doctor->id)}}">Delete</a></td>
 

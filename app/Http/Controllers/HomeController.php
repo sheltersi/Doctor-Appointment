@@ -135,9 +135,10 @@ return redirect()->back();
     public function showprofile()
     {
 
-        $userid=Auth::user()->id;
-        $data=user::all();
-        return view('user.showprofile',compact('data'));
+        // $profile=Auth::user()->is();
+        $profile=auth()->user();
+        // $data=user::all();
+        return view('user.showprofile',compact('profile'));
     }
 
 

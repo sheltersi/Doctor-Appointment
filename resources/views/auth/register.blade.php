@@ -32,11 +32,11 @@
                 <x-jet-input id="image" class="block mt-1 w-full" type="file" name="image"cvalue="old('name')" required autofocus autocomplete="image" />
             </div> --}}
 
-            <div style="padding: 15px;">
+           <!--  <div style="padding: 15px;">
 
                 <label for="photo">Patient image</label>
               <input type="file" name="photo" required>
-            </div>
+            </div> -->
 
             <div class="mt-4">
                 <x-jet-label for="password" value="{{ __('Password') }}" />
