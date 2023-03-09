@@ -39,7 +39,8 @@
           </div>
 
 
-          <div class="col-12 py-2 wow fadeInUp" data-wow-delay="300ms">
+          {{-- <div class="col-12 py-2 wow fadeInUp" data-wow-delay="300ms"> --}}
+            <div>
             <input type="text" name="number" class="form-control" placeholder="Phone Number.." style="background-color:darkgreen">
           </div>
           <div class="col-12 py-2 wow fadeInUp" data-wow-delay="300ms">
