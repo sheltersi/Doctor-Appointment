@@ -1,6 +1,6 @@
 # Doctor-Appointment
 
-a laravel web application that allows a user(patient) to register an account and book for an appointment to see a doctor.
+A Web Application that allows a user(patient) to register an account and book for an appointment to see a doctor.
 the admin will approave or cancel the appointment request and will also be able to send an email to the users(patients).
 
 Home Page
@@ -18,7 +18,7 @@ Administrator Dashboard
 
 ![Admin_page](https://github.com/sheltersi/Doctor-Appointment/blob/main/assets/images/dashboard-pic.JPG?raw=true)
 
-Appointment page for the administrator that shows a list of users and their full details who have request for appointments
+Appointment page for the administrator that shows a list of users and their full details who have request for appointments. The admin can cancel  or aproave the request and then send a message for the time scheduled.
 
 ![Admin_page](https://github.com/sheltersi/Doctor-Appointment/blob/main/assets/images/total-appointments-page.JPG?raw=true)
 
